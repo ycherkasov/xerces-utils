@@ -1,0 +1,24 @@
+#
+
+set(Files_include_xmlutils_h
+  include/xmlutils/dom_document.h
+  include/xmlutils/xerces_auto_ptr.h
+  include/xmlutils/xmlstring.h
+  include/xmlutils/xpath.h
+  )
+
+set(Files_src
+  src/dom_document.cpp
+  src/xpath.cpp
+  )
+
+set(Files_tests
+  tests/t-xml.cpp
+  )
+
+
+set(INCLUDE_DIRS ${INCLUDE_DIRS} include)
+
+set(SOURCES ${SOURCES} ${Files_src})
+
+set(TEST_SOURCES ${TEST_SOURCES} ${Files_tests})

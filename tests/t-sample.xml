@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<root>
+  <stub_settings/>
+  <server_settings>127.0.0.1</server_settings>
+  <server_settings>192.168.68.1</server_settings>
+  <color_settings line_color="0xffccff00" background_color="0xff00cc00"/>
+</root>
